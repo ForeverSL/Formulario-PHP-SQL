@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário UNG</h1>
+    <form method="POST" action="salvar.php">
+        <label>Nome: </label><br>
+        <input type="text" name="nome" placeholder="Digite o seu nome"><br><br>
+
+        <label>Email: </label><br>
+        <input type="email" name="email" placeholder="Digite o seu Email"><br><br>
+
+        <label>Celular: </label><br>
+        <input type="text" name="celular" placeholder="Digite o seu número"><br><br>
+
+        <label>Sexo: </label><br>
+        <input type="radio" name="sexo" value="Masculino">
+        <label for="Masculino">Masculino</label><br>
+        <input type="radio" name="sexo" value="Feminino">
+        <label for="Feminino">Feminino</label><br>
+        <input type="radio" name="sexo" value="Prefiro">
+        <label for="Prefiro">Prefiro não especificar</label><br><br>
+
+        <label>DNA: </label><br>
+        <input type="text" name="dna" placeholder="Digite DNA"><br><br>
+
+        <label>Gosto: </label><br>
+        <input type="text" name="gosto" placeholder="Digite algo que gosta"><br><br>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
